@@ -1,0 +1,21 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
+env/
+venv/
+mvrec/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore pickled model and data files (if large)
+*.pkl
+
+# Ignore dataset folder (if large)
+Dataset/
+
+# Ignore other common files
+*.log
+*.sqlite
