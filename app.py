@@ -4,10 +4,6 @@ import numpy as np
 import pickle
 import math
 import random
-import os
-
-port = os.environ.get('PORT', 8501)  # Default is 8501 for Streamlit
-st.set_option('server.port', port)
 
 
 def recommend(movie):
